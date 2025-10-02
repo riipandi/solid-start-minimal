@@ -8,7 +8,6 @@
  * - Build command: `pnpm run build`
  * - Deploy command: `pnpm run deploy`
  * - Non-production branch deploy command: `pnpm exec wrangler versions upload`
- *
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
