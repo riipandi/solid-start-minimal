@@ -3,6 +3,12 @@
  * - https://developers.cloudflare.com/workers/wrangler/configuration
  * - https://developers.cloudflare.com/workers/runtime-apis/bindings
  * - https://developers.cloudflare.com/workers/static-assets/binding
+ *
+ * Build configurations:
+ * - Build command: `pnpm run build`
+ * - Deploy command: `pnpm run deploy`
+ * - Non-production branch deploy command: `pnpm exec wrangler versions upload`
+ *
  */
 {
     "$schema": "node_modules/wrangler/config-schema.json",
