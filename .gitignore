@@ -25,8 +25,19 @@ gitignore
 
 # System Files
 .DS_Store
+.DS_Store?
 Thumbs.db
 
 # Storybook
-debug-storybook.log
 storybook-static/
+*storybook.log
+
+# envars
+.env.*
+!.env.example
+compose.env*
+!compose.env.example
+
+# Miscellaneous
+cloudflare-env.d.ts
+worker-configuration.d.ts
